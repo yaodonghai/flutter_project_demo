@@ -97,7 +97,7 @@ class _InfiniteGridViewState extends State<InfiniteGridView> {
       child: Container(
         alignment: Alignment.center,
         color: Colors.tealAccent,
-        child: Text("$index",style: TextStyle(color: Colors.black,backgroundColor: Colors.white),),
+        child: Text("$index",style: TextStyle(color: Colors.black,backgroundColor: Colors.red,fontSize: 20),),
       )
     );
   }
